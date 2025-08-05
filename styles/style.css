@@ -55,7 +55,7 @@
   color: var(--title-color);
   font-family: "IBM Plex Mono", sans-serif;
   line-height: 95.7px;
-  text-shadow: 4px 4px 0px #FF8DCB;
+  text-shadow: 4px 4px 0px var(--accent-color-bg);
   font-weight: var(--weight-bold);
 }
 
@@ -151,6 +151,7 @@ footer {
   padding-top: 9px;
   list-style: none;
   padding-right: 0px;
+  gap: 16px;
 }
 
 .header__theme-menu-button {
@@ -185,7 +186,7 @@ footer {
 }
 
 .header__theme-menu-item:not(:last-child) {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .record {
@@ -223,7 +224,7 @@ a:focus-visible {
 }
 
 a:focus {
-  outline:none;
+  outline: none;
 }
 
 a:hover {
@@ -251,6 +252,7 @@ border-bottom: 1px solid var(--main-text);
     padding-block-start: 26px;
     padding-inline-end: 21px;
     width: 70px;
+    gap: 17px;
   }
 
   .main-title {
@@ -258,7 +260,7 @@ border-bottom: 1px solid var(--main-text);
   }
 
   .main-text {
-    padding-block-end: 0;
+    padding-block-end: 20px;
   }
 
   .title-decor {
@@ -299,7 +301,7 @@ border-bottom: 1px solid var(--main-text);
     margin-block-end: 10px;
     grid-column-start: 4;
     margin-inline-end: 0px;
-    padding-inline-start: 121px;
+    padding-inline-start: 120px;
   }
 
   .header__theme-menu-button {
@@ -464,15 +466,15 @@ border-bottom: 1px solid var(--main-text);
     justify-self: end;
     width: 25px;
     height: 25px;
-    top: 20px;
+    top: 19px;
     right: 20px;
     border-top: 1px solid var(--accent-color);
     border-right: 1px solid var(--accent-color);
   }
 
   .title-header-decor {
-    margin-block-start: 131px;
-    margin-inline: 220px;
+    margin-block-start: 132px;
+    margin-inline: 233px;
     margin-inline-end: 19px;
     grid-column-start: 2;
     min-block-size: 70px;
@@ -508,14 +510,14 @@ border-bottom: 1px solid var(--main-text);
     width: 100%;
     justify-content: center;
     padding: 0;
-    padding-block-start: 21px;
-    padding-inline-end: 105px;
+    padding-block-start: 20px;
+    padding-inline-end: 120px;
     gap: 13px;
   }
 
   .header__theme-menu-button_active {
-    padding-block-end: 15px;
-    margin-block-end: 15px;
+    /* padding-block-end: 15px;
+    margin-block-end: 15px; */
   }
 
   .header__theme-menu-button {

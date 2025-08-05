@@ -31,7 +31,8 @@
   :root {
     --accent-color: rgba(53, 52, 48, 1);
     --bg-image: url(../images/cover-image-light.png);
-    --title-color: rgba(255, 194, 230, 1);
+    /* --title-color: rgba(255, 194, 230, 1); */
+    --title-color: #FFC2E6;
     --bg-color: #fff1f7;
     --main-text: rgba(53, 52, 48, 1);
     --title-decor-color: rgba(53, 52, 48, 1);
@@ -46,4 +47,9 @@
       display: none;
     }
   }
+
+  /* .header__theme-menu-button_type_auto {
+    padding-block-end: 20px;
+    padding-inline-start: 1px;
+  } */
 }
